@@ -1,0 +1,54 @@
+•••••••••• PARA CREAR EL REPOSITORIO LOCAL ••••••••••
+Latitude@MARCO MINGW64 ~/Desktop/nada (main) 
+$ echo "# pruebasas" >> README.md
+
+Latitude@MARCO MINGW64 ~/Desktop/nada (main) 
+$ git init
+Initialized empty Git repository in C:/Users/Latitude/Desktop/nada/.git/
+
+Latitude@MARCO MINGW64 ~/Desktop/nada (master)
+$ git add README.md
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings 
+in your working directory
+
+Latitude@MARCO MINGW64 ~/Desktop/nada (master)
+$ git commit -m "first commit"
+[master (root-commit) 0081a94] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+Latitude@MARCO MINGW64 ~/Desktop/nada (master)
+$ git branch -M main
+
+Latitude@MARCO MINGW64 ~/Desktop/nada (main) 
+$ git remote add origin git@github.com:MarcoFloresGzz/pruebasas.git
+
+Latitude@MARCO MINGW64 ~/Desktop/nada (main) 
+$ git push -u origin main
+Enter passphrase for key '/c/Users/Latitude/.ssh/id_rsa':                               CERO
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 233 bytes | 46.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:MarcoFloresGzz/pruebasas.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+
+
+
+•••••••••• CREAR RAMAS Y CHECKOUT ••••••••••
+
+como las agregaste?
+en mi caso:
+Enviaste
+git branch header
+Enviaste
+git branch post
+Enviaste
+git branch footer
+Enviaste
+y para ir de una en otra es
+Enviaste
+git checkout footer (a la que quieres ir)
